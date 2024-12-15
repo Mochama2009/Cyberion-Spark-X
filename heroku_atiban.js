@@ -10,7 +10,7 @@
 
 // Function to check if the bot is safely running on Heroku
 function isHeroku() {
-  return window.location.hostname === 'heroku.com';
+  return window.location.hostname === 'prince_dan;
 }
 
 // Function to simulate a user interaction to prevent Heroku's idle timeout
@@ -40,14 +40,14 @@ setInterval(keepAlive, 30 * 60 * 1000); // Send a start message every 30 minutes
 
 // Function to check if the bot is safely running on Heroku
 function isHeroku() {
-  return window.location.hostname === 'heroku.com';
+  return window.location.hostname === 'prince_dan';
 }
 
 // Function to simulate a user interaction to prevent Heroku's idle timeout
 function keepAlive() {
   if (isHeroku()) {
     // Simulate a user interaction by sending a message to the bot
-    // Replace 'your_bot_phone_number' with the actual phone number of your bot
+    // Replac070640050⁹9' with the actual phone number of your bot
     const message = 'ping';
     const url = `https://api.whatsapp.com/send?phone=your_bot_phone_number&text=${message}`;
     fetch(url)
